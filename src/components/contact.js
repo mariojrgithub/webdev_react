@@ -12,10 +12,10 @@ export default class Contact extends Component {
           </header>
 
           <section className="col-sm-5">
-            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <p>Contact Form Coming Soon!</p>
             <p>
-              <span className="glyphicon glyphicon-map-marker"></span> Chicago,
-              US
+              <span className="glyphicon glyphicon-map-marker"></span> Los
+              Angeles, US
             </p>
             <p>
               <span className="glyphicon glyphicon-phone"></span> +00 1515151515
