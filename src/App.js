@@ -8,19 +8,14 @@ import Contact from "./components/contact";
 function App() {
   return (
     <div className="App">
-      <body
-        id="myPage"
-        data-spy="scroll"
-        data-target=".navbar"
-        data-offset="60"
-      >
+      <div id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
         <NavBar />
         <Title />
         <Technology />
         <HowItWorks />
         <About />
         <Contact />
-      </body>
+      </div>
     </div>
   );
 }
