@@ -1,0 +1,149 @@
+body > * {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    font-weight: 700;
+  }
+  
+  .jumbotron.text-center {
+    background-color: #1f92c3;
+    color: #fff;
+    margin: 0;
+  }
+  
+  section i {
+    color: #1f92c3;
+    padding: 3rem;
+  }
+  
+  .line {
+    border: 1px solid #1f92c3;
+    width: 10rem;
+  }
+  
+  .row.services {
+    background-color: #e3f2f9;
+  }
+  
+  .navbar.navbar-default.navbar-fixed-top {
+    margin-bottom: 0;
+    background-color: #1f92c3;
+    z-index: 9999;
+    border: 0;
+    font-size: 1.4rem !important;
+    letter-spacing: 0.5rem;
+    border-radius: 0;
+    width: 100vw;
+  }
+  
+  .navbar li a,
+  .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .navbar-nav li a:hover,
+  .navbar-nav li.active a {
+    color: #1f92c3 !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+    background-color: #1f92c3;
+  }
+  
+  a i {
+    color: #fff;
+  }
+  
+  .row {
+    padding: 3rem;
+    font-size: 2rem;
+  }
+  
+  #contact {
+    background-image: url(https://images.unsplash.com/photo-1533658280853-e4a10c25a30d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2126&q=80);
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    color: #fff;
+  }
+  
+  article h2,
+  article h3 {
+    font-weight: 700;
+  }
+  
+  article p {
+    font-size: 2.2rem;
+    font-style: italic;
+  }
+  
+  #title h1 {
+    font-size: 7rem;
+  }
+  
+  #title p {
+    font-size: 2.5rem;
+    font-style: italic;
+  }
+  
+  article h2 {
+    font-size: 4rem;
+  }
+  
+  article h3 {
+    font-size: 3rem;
+  }
+  
+  article h4 {
+    font-size: 2rem;
+    font-style: italic;
+  }
+  
+  a img {
+    width: 14em;
+  }
+  
+  .btn.btn-default.pull-right {
+    background-color: #1f92c3;
+    color: #fff;
+  }
+  
+  /* slide animation */
+  .slideanim {visibility:hidden;}
+  .slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+  }
+  
+  /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
