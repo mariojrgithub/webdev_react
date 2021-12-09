@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import junior from "../images/jr_starry.png";
 
 export default class About extends Component {
   render() {
@@ -14,9 +15,12 @@ export default class About extends Component {
             <a href="#">
               <img
                 className="center-block"
-                src="https://lh3.googleusercontent.com/WsjoCuT_9UNK_OGDOCbjH_VW5_7xqfbgi4fp2wQVv9d12e77_9yvg2qlKznZJW_WbHOoq_3-NMqzQQvtYliHutySrrdJkO-5yWj_MUkj5Jik7X3cYmmgEZbfyEk4unQh0FSGOrLQgw=w2400"
+                src={junior}
                 alt="My Picture"
                 width="300px"
+                style={{
+                  borderRadius: "50%",
+                }}
               />
             </a>
             <h3 id="name">Mario Sanchez, Jr.</h3>
